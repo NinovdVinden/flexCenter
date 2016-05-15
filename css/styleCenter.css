@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* opmaak van de body */
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* opmaak van de class flex */
+.flex {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: dodgerblue;
+    height: 16em;
+    flex: 0 0 16em;
+}
+
+/* opmaak emphasized tekst */
+.flex em{
+    font-size: .7em;
+    display: block;
+    text-align: right;
+}
+
+/*  style footer, validatie en github  */
+#validatie img{
+    width: 70px; 
+}
+
+#githublink img{
+    width: 30px;
+}
